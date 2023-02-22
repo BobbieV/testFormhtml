@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Bobbie VanBatenburg">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="description" content="newsletter sign up form">
+        <meta name="language" content="english">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="en_us">
+        <link rel="stylesheet" href="stylesheet.css">
+        <title>Sign up for our newsletter!</title>
+    </head>
+    <body>
+        <article>
+            <h1>Sign up for our newsletter</h1>
+        <form>
+            <div class="name" id="name">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="email" name="email">
+                <label for="email" required>Email:</label>
+                <input type="email" id="email" name="email">
+                <br>
+                <br>
+            </div>
+            Would you like to receive our promotional emails?
+            <div class="promo" id="promo">
+                <label for="Yes" id="">Yes</label>
+                <input type="radio" name="promo" id="yes" checked="checked">
+            
+                <label for="No" id="">No</label>
+                <input type="radio" name="promo" id="no">
+            </div>
+            <br>
+            <div class="source" id="source">
+                <label for="source">How did you hear about us?</label>
+                <select name="source" id="source" required>
+                    <option value="selectOne">Select One</option>
+                    <option value="socialMedia">Social Media</option>
+                    <option value="wordOfMouth">Word of Mouth</option>
+                    <option value="Radio">Radio</option>
+                    <option value="Television">Television</option>
+                    <option value="Other">Other</option>
+                </select>
+            </div>
+            <br>
+            <div class="termsAndConditions" id="termsAndConditions">
+                <label for="termsAndConditions">I agree to the <a href="https://www.example.com">terms and conditions</a></label>
+                <input type="checkbox" required>
+            </div>
+            <br>
+            <div class="submit" id="Submit">
+            <input type="submit" value="Submit">
+            </div>
+            </form>
+        </form>
+        </article>
+
+    </body>
+    <footer class="footer">www.thisrandomwebsite.com<br> copyright 2023</footer>
+</html>
